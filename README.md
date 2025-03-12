@@ -12,12 +12,13 @@
             background-color: #f8f9fa;
             color: #333;
         }
-        /* Floating Chatbot Button */
+
+ /* Floating Chatbot Button */
         .chatbot-button {
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background-color: #007bff;
+            background-color: #4A90E2;
             color: white;
             border: none;
             padding: 15px;
@@ -27,7 +28,7 @@
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
         }
 
- /* Chatbot Container */
+/* Chatbot Container */
         .chatbot-container {
             position: fixed;
             bottom: 80px;
@@ -42,9 +43,9 @@
             border: 1px solid #ddd;
         }
 
-/* Chatbot Header */
+ /* Chatbot Header */
         .chatbot-header {
-            background-color: #007bff;
+            background-color: #4A90E2;
             color: white;
             padding: 10px;
             font-size: 16px;
@@ -62,7 +63,8 @@
             font-size: 22px;
             cursor: pointer;
         }
-        /* Chatbot Iframe */
+
+ /* Chatbot Iframe */
         .chatbot-iframe {
             width: 100%;
             height: 100%;
@@ -72,11 +74,11 @@
 </head>
 <body>
 
- <h1 style="color: #0056b3;">HealthTech-1 Chatbot Demo</h1>
+<h1 style="color: #0056b3;">HealthTech-1 Chatbot Demo</h1>
     <p>Welcome! This is a demo chatbot showcasing how AI can assist HealthTech-1.</p>
-<!-- Chatbot Button -->
+ <!-- Chatbot Button -->
     <button class="chatbot-button" onclick="toggleChatbot()">💬</button>
-<!-- Chatbot Box -->
+ <!-- Chatbot Box -->
     <div class="chatbot-container" id="chatbotBox">
         <div class="chatbot-header">
             Chat Support
@@ -87,9 +89,9 @@
         </iframe>
     </div>
 
- <p>Try asking about HealthTech-1 services, careers, and more!</p>
+<p>Try asking about HealthTech-1 services, careers, and more!</p>
 
- <script>
+<script>
         function toggleChatbot() {
             var chatbot = document.getElementById("chatbotBox");
             chatbot.style.display = chatbot.style.display === "none" || chatbot.style.display === "" ? "flex" : "none";
@@ -98,5 +100,4 @@
 
 </body>
 </html>
-
 
