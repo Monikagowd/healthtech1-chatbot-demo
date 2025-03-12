@@ -9,13 +9,10 @@
             text-align: center;
             font-family: Arial, sans-serif;
             padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
         }
-        iframe {
-            border: none;
-            margin-top: 20px;
-        }
-
-/* Floating Chatbot Button */
+        /* Floating Chatbot Button */
         .chatbot-button {
             position: fixed;
             bottom: 20px;
@@ -30,7 +27,7 @@
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
         }
 
-/* Chatbot Container */
+ /* Chatbot Container */
         .chatbot-container {
             position: fixed;
             bottom: 80px;
@@ -58,15 +55,14 @@
             border-top-right-radius: 10px;
         }
 
-.minimize-button {
+ .minimize-button {
             background: none;
             border: none;
             color: white;
             font-size: 22px;
             cursor: pointer;
         }
-
-/* Chatbot Iframe */
+        /* Chatbot Iframe */
         .chatbot-iframe {
             width: 100%;
             height: 100%;
@@ -76,14 +72,14 @@
 </head>
 <body>
 
-<h1>HealthTech-1 Chatbot Demo</h1>
+ <h1 style="color: #0056b3;">HealthTech-1 Chatbot Demo</h1>
     <p>Welcome! This is a demo chatbot showcasing how AI can assist HealthTech-1.</p>
 <!-- Chatbot Button -->
     <button class="chatbot-button" onclick="toggleChatbot()">💬</button>
- <!-- Chatbot Box -->
+<!-- Chatbot Box -->
     <div class="chatbot-container" id="chatbotBox">
         <div class="chatbot-header">
-            HealthTech-1 Chatbot
+            Chat Support
             <button class="minimize-button" onclick="toggleChatbot()">–</button>
         </div>
         <iframe class="chatbot-iframe"
@@ -102,4 +98,5 @@
 
 </body>
 </html>
+
 
