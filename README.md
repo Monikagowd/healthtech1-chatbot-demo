@@ -86,7 +86,7 @@
         </div>
         <iframe class="chatbot-iframe"
             allow="microphone;"
-    src="https://console.dialogflow.com/api-client/demo/embedded/2ba4a88b-2d90-4ac6-90b9-f195f09c4f52">>
+    src="https://console.dialogflow.com/api-client/demo/embedded/2ba4a88b-2d90-4ac6-90b9-f195f09c4f52">
         </iframe>
     </div>
 
