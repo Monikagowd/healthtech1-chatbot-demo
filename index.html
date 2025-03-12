@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,23 +9,21 @@
             font-family: Arial, sans-serif;
             padding: 20px;
         }
-        .chat-button {
-            background-color: #007bff;
-            color: white;
-            padding: 10px 20px;
+        iframe {
             border: none;
-            cursor: pointer;
-            font-size: 16px;
             margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <h1>HealthTech-1 Chatbot Demo</h1>
-    <p>Welcome! Click the button below to chat with the HealthTech-1 AI Assistant.</p>
+    <p>Welcome! This is a demo chatbot showcasing how AI can assist HealthTech-1.</p>
 
-<button class="chat-button" onclick="window.open('(https://bot.dialogflow.com/2ba4a88b-2d90-4ac6-90b9-f195f09c4f52)')">
-        Open Chatbot
-    </button>
+  <iframe allow="microphone;" width="350" height="500"
+    src="https://console.dialogflow.com/api-client/demo/embedded/2ba4a88b-2d90-4ac6-90b9-f195f09c4f52">
+</iframe>
+
+<p>Try asking about HealthTech-1 services, careers, and more!</p>
 </body>
 </html>
+
